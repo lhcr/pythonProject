@@ -1,3 +1,6 @@
 n1=int(input('n1: '))
 n2=int(input('n2: '))
-#print('n1 potência de n2= {} , n1 div inteira n2 = {}, n1 modulo de n2 = {}'.format(n1**n2,n1//n2,n1%n2))
+print('n1 potência de n2= {} \n função n1 potência n2= {} \n n1 div inteira n2 = {} \n n1 modulo de n2 = {} \n n1 dividido n2 = {:.3f}'.format(n1**n2, pow(n1,n2),n1//n2,n1%n2,n1/n2))
+print('oi'*n1)
+nome=input('nome')
+print('{:>10}'.format(nome))
