@@ -1,0 +1,5 @@
+campBrasil= ('Grêmio','Inter','Juventude','Vasco','Palmeiras','Baiha','Sport','Chapecoense','Avaí','Cuiaba','Paysandu','Juazerensse','Vila Nova','Fluminense','Caxias','Brasil de Pelotas')
+print(campBrasil[0:5])
+print(campBrasil[-5:-1])
+print(sorted(campBrasil))
+print(campBrasil.index('Chapecoense'))
