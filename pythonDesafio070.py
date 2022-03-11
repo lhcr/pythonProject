@@ -12,11 +12,13 @@ while True:
         nProdBara = nomeProd
     if valorProd>1000:
         maMil+=1
-    pergunta = str(input('Deseja continuar? '))
+    pergunta = ' '
+    while pergunta not in 'sSnN':
+        pergunta = str(input('Deseja continuar? '))
     if pergunta in 'nN':
         break
     
-print(f'{maMil} custaram mais de mil reais\no produto mais barato foi o {nProdBara} e custou {maBarato}\nTotal gasto {totgasto} ')
+print(f'{maMil} custaram mais de mil reais\no produto mais barato foi o {nProdBara} e custou {maBarato:.2f}\nTotal gasto {totgasto:.2f} ')
     
 
 
