@@ -1,12 +1,4 @@
-
-
-from ctypes import pointer
-
-
-class Node:
-    def __init__(self,value):
-        self.value = value
-        self.next = None
+import Node
 
 class Fila:
     def __init__(self):
@@ -16,7 +8,7 @@ class Fila:
 
 
     def insere(self, value):
-        temp = Node(value)
+        temp = Node.Node(value)
         if self.fim is None:
             self.fim = temp
             self.inicio = self.fim            
@@ -29,7 +21,7 @@ class Fila:
 
     def remove(self):
         if self.inicio:
-            temp = self.inicio
+            temp = self.inicio.value
             self.inicio = self.inicio.next
             self._size-=1
         return temp
