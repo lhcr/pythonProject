@@ -1,13 +1,4 @@
-#import Node
-
-from ctypes import pointer
-from platform import node
-
-
-class Node:
-    def __init__(self,value):
-        self.value = value
-        self.next = None
+import Node
 
 
 class Pilha:
@@ -16,7 +7,7 @@ class Pilha:
         self._size = 0
 
     def push(self,value):
-            temp = Node(value)
+            temp = Node.Node(value)
             temp.next =self.top
             self.top = temp
             self._size+=1
