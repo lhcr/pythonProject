@@ -2,7 +2,7 @@
 
 class NodeTree:
     def __init__(self,value) -> None:
-        self.valeu = value
+        self.value = value
         self.esq = None
         self.dir = None
 

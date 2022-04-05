@@ -28,7 +28,10 @@ n2.esq = n1
 n2.dir = n3
 a.raiz = n2
 
-a.calcula()
+# a.calcula()
+
+print(a.altura())
+
 # print(a.raiz.esq.valeu)
 # print(a.raiz.dir.valeu)
 
